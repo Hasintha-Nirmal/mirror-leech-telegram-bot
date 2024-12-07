@@ -113,7 +113,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
     else:
         await send_message(
             message,
-            "You Are not authorized user! Deploy your own mirror-leech bot",
+            "You Are not authorized user! ",
             reply_markup,
         )
 
